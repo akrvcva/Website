@@ -219,62 +219,34 @@ width:100%;
  }
 
 .fourth-block {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     margin-top: -100px;
     background-color: whitesmoke;
 }
 
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
 .block1 {
-    padding: 4px;
-    margin-inline: 10%;
-    width: 14%;
-    padding-bottom: 20px;
+    width: 32%;
     background-color: white;
+    border: 2px solid whitesmoke ;
 }
 
-.block2 {
-    padding: 4px;
-    margin-inline: 10%;
-    width: 14%;
-    padding-bottom: 20px;
-    background-color: white;
-}
-
-.block3 {
-    margin-inline: 10%;
-    width: 14%;
-    padding-bottom: 20px;
-    background-color: white;
-}
-
-.block4 {
-    margin-inline: 10%;
-    width: 14%;
-    padding-bottom: 20px;
-    background-color: white;
-}
-
-.block5 {
-    margin-inline: 10%;
-    width: 14%;
-    padding-bottom: 20px;
-    background-color: white;
-}
-
-.block6 {
-    margin-inline: 10%;
-    width: 14%;
-    padding-bottom: 20px;
-    background-color: white;
+.block1:nth-child(2) {
+    background-color: rgb(93, 219, 250);
 }
 
 .artcoding {
+   padding: 50px;
 }
-
 
 .artcoding img {
     width: 20%;
@@ -284,10 +256,81 @@ width:100%;
 .artcoding h3 {
     font-size: 20px;
     font-weight: 600;
-    text-align: center;
-    width: 25%;
+    text-align: start;
+    width: 100%;
 }
 
 .artcoding p {
+    margin-top: 2px;
     text-align: start;
+}
+
+.fifth-block {
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+.displaying {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 80vh;
+    bottom: 0%;
+    background: url(./img/1920x1080/02.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+.displaying::before {
+    content: " ";
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(81, 87, 105, .4);
+    width: 100%;
+    height: 80vh;
+}
+
+.displaying h1 {
+    top: 20%;
+    left: 30%;
+    font-size: 300%;
+    color: white;
+    position: absolute;
+    z-index: 1;
+}
+
+.displaying p {
+    left: 10%;
+    top: 40%;
+    font-size: 150%;
+    color: whitesmoke;
+    z-index: 1;
+    position: absolute;
+}
+
+.sixth-block {
+    width: 100%;
+    height: 100vh;
+}
+
+.imgsixth {
+    display: flex;
+    flex-wrap: wrap;
+    width: 96%;
+    margin: 10% auto;
+    height: 80%;
+}
+
+.imgsixth img {
+    max-height: 300px;
+    padding: 2px;
+}
+
+.firstimg {
+    width: 60%;
+}
+
+.secondimg {
+    width: 38.7%;
 }
