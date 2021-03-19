@@ -358,7 +358,7 @@ width:100%;
 }
 
 .page:nth-child(2) {
-    margin: 45px 3px 0 3px;
+    margin: 35px 3px 0 3px;
     height: 100%;
 }
 
@@ -393,7 +393,42 @@ width:100%;
     margin-right: 40px;
 }
 
-.page span {
+
+.list {
+margin-top: 30px;
+}
+
+
+.list p {
+    list-style: disc;
+    list-style-position: initial;
     color: #7f838fe0;
+    margin-top: 4px;
     font-size: 13px;
+}
+
+.chance {
+    margin-left: 28px;
+    margin-top: 25px;
+    width: 30%;
+    height: 10%;
+    border: 0;
+}
+
+.eight-block {
+    width: 100%;
+    height: 80vh;
+}
+
+
+.maintx {
+    width: 70%;
+    height: 20vh;
+    margin-top: 60px;
+}
+
+.maintx h2 {
+    color: #7f838fe0;
+    margin-right: 5px;
+    margin-left: 5px;   
 }
